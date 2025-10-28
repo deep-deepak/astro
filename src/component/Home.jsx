@@ -46,7 +46,7 @@ export default function Home() {
                     }}
                     title="Chat on WhatsApp"
                 >
-                    <What size={28} />
+                    <MessageCircle size={28} />
                 </a>
 
                 {/* Phone Button */}
