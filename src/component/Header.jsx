@@ -22,12 +22,16 @@ export default function AstrologerHeader() {
                                 style={{
                                     width: "5rem",
                                     height: "5rem",
-                                    background: "linear-gradient(to bottom right, #14532d, #166534)",
+                                    background: "#f97316",
                                     boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
                                     borderWidth: "4px",
                                 }}
                             >
-                                <span style={{ fontSize: '2.5rem' }}>🛕</span>
+                                <img
+                                    src="shyam.png"
+                                    alt="Khatu Shyam Ji"
+                                    style={{ width: '60px', height: '60px', verticalAlign: 'middle' }}
+                                />
 
                             </div>
 
@@ -51,7 +55,7 @@ export default function AstrologerHeader() {
                                 className="fw-bold text-success mb-2"
                                 style={{ fontSize: "1.6rem" }}
                             >
-                                Astrologer Gayatri Devi
+                                Kinner astrologer Gayatri Devi
                             </h1>
 
                             {/* Ratings & Reviews */}

@@ -45,7 +45,11 @@ export default function AstrologyFooter() {
                                     boxShadow: '0 4px 15px rgba(244, 162, 97, 0.3)',
                                 }}
                             >
-                                <span style={{ fontSize: '28px' }}>🛕</span>
+                                <img
+                                    src="shyam.png"
+                                    alt="Khatu Shyam Ji"
+                                    style={{ width: '50px', height: '50px', verticalAlign: 'middle' }}
+                                />
                             </div>
                             <div>
                                 <h5
@@ -56,7 +60,7 @@ export default function AstrologyFooter() {
                                         fontWeight: '600',
                                     }}
                                 >
-                                    Astrologer Gayatri Devi
+                                    Kinner astrologer Gayatri Devi
                                 </h5>
                                 <p
                                     className="mb-0"
