@@ -159,7 +159,7 @@ export default function AstrologerHeader() {
                                     className="fw-bold text-success"
                                     style={{ fontSize: "1.4rem", lineHeight: "1.2" }}
                                 >
-                                    +91-8264221603
+                                    +91-6378024495
                                 </div>
 
                                 {/* Contact Icons (Phone & WhatsApp) */}

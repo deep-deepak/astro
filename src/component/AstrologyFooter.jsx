@@ -279,7 +279,7 @@ export default function AstrologyFooter() {
                                 onMouseEnter={(e) => (e.currentTarget.style.color = '#ffd166')}
                                 onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}
                             >
-                                +91-8264221603
+                                +91-6378024495
                             </a>
                         </div>
 
@@ -307,7 +307,7 @@ export default function AstrologyFooter() {
                                 }
                                 onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}
                             >
-                                +91-8264221603
+                                +91-6378024495
                             </a>
                         </div>
 
