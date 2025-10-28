@@ -1,4 +1,3 @@
-
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,7 +20,7 @@ export default function AstrologyServices() {
         {
             title: "Lost Love Recovery",
             subtitle: "Professional Astrologer",
-            description: "Connect with our renowned online astrology expert who specializes in powerful Islamic remedies to revive lost relationships and bring back your true love.",
+            description: "Connect with our renowned online astrology expert who specializes in powerful remedies to revive lost relationships and bring back your true love.",
             image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=500&h=400&fit=crop",
             color: "#1a4d2e"
         },
@@ -45,6 +44,49 @@ export default function AstrologyServices() {
             description: "Unlock the power of ancient mystical practices to draw genuine affection into your life. Let cosmic energy guide you toward lasting romantic happiness.",
             image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=500&h=400&fit=crop",
             color: "#2d5f3f"
+        },
+        // New Services ↓
+        {
+            title: "Ex Love Back",
+            subtitle: "Love Specialist Astrologer",
+            description: "Bring your ex-lover back into your life with our expert spiritual remedies and love astrology guidance. Rekindle the lost spark of true affection.",
+            image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&h=400&fit=crop",
+            color: "#1a4d2e"
+        },
+        {
+            title: "Ex Husband Back",
+            subtitle: "Vashikaran Expert",
+            description: "Resolve misunderstandings and restore the lost bond with your husband using our authentic astrological solutions for a happy marital life.",
+            image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&h=400&fit=crop",
+            color: "#2d5f3f"
+        },
+        {
+            title: "Ex Boyfriend Back",
+            subtitle: "Love Problem Specialist",
+            description: "Our effective prayers and remedies help reunite you with your ex-boyfriend and rebuild your relationship stronger than before.",
+            image: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?w=500&h=400&fit=crop",
+            color: "#1a4d2e"
+        },
+        {
+            title: "Ex Girlfriend Back",
+            subtitle: "Love Relationship Healer",
+            description: "Get your ex-girlfriend back in your life through spiritual healing and positive energy alignment designed to restore mutual understanding and affection.",
+            image: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500&h=400&fit=crop",
+            color: "#2d5f3f"
+        },
+        {
+            title: "Ex Wife Back",
+            subtitle: "Marital Harmony Specialist",
+            description: "Heal emotional wounds and reunite with your ex-wife using ancient astrology and spiritual mantras designed to renew love and compassion.",
+            image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=400&fit=crop",
+            color: "#1a4d2e"
+        },
+        {
+            title: "Same-Sex Love Solution",
+            subtitle: "Inclusive Love Astrologer",
+            description: "Love knows no boundaries. Our compassionate astrology services offer guidance and healing for same-sex and LGBTQ+ relationships with complete privacy and respect.",
+            image: "https://cdn.mos.cms.futurecdn.net/D2ZPivER6Lq5pKzswQLuRN.jpg",
+            color: "#2d5f3f"
         }
     ];
 
@@ -53,30 +95,24 @@ export default function AstrologyServices() {
             <Container>
                 <Row className="g-4">
                     {services.map((service, index) => (
-                        <Col key={index} xs={12} md={6} lg={4}>
-                            <Card style={{
-                                border: 'none',
-                                borderRadius: '0',
-                                overflow: 'hidden',
-                                height: '100%',
-                                boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-                                transition: 'transform 0.3s ease'
-                            }}
-                                onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
-                                onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-                                <div style={{
-                                    height: '280px',
+                        <Col key={index} xs={12} sm={6} lg={4}>
+                            <Card
+                                style={{
+                                    border: 'none',
+                                    borderRadius: '0',
                                     overflow: 'hidden',
-                                    position: 'relative'
-                                }}>
+                                    height: '100%',
+                                    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+                                    transition: 'transform 0.3s ease'
+                                }}
+                                onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
+                                onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                            >
+                                <div style={{ height: '280px', overflow: 'hidden', position: 'relative' }}>
                                     <img
                                         src={service.image}
                                         alt={service.title}
-                                        style={{
-                                            width: '100%',
-                                            height: '100%',
-                                            objectFit: 'cover'
-                                        }}
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                     />
                                 </div>
                                 <Card.Body style={{
@@ -93,9 +129,9 @@ export default function AstrologyServices() {
                                         {service.subtitle}
                                     </p>
                                     <Card.Title style={{
-                                        fontSize: '24px',
+                                        fontSize: '22px',
                                         fontWeight: '700',
-                                        marginBottom: '20px',
+                                        marginBottom: '15px',
                                         color: '#ffc107'
                                     }}>
                                         {service.title}
@@ -113,7 +149,7 @@ export default function AstrologyServices() {
                                             backgroundColor: '#ffc107',
                                             border: 'none',
                                             color: '#000',
-                                            padding: '12px 24px',
+                                            padding: '10px 20px',
                                             fontWeight: '600',
                                             borderRadius: '4px',
                                             fontSize: '15px',
@@ -123,7 +159,7 @@ export default function AstrologyServices() {
                                         }}
                                     >
                                         <span style={{ fontSize: '18px' }}>📱</span>
-                                        +91-6378024495
+                                        +91-8264221603
                                     </Button>
                                 </Card.Body>
                             </Card>

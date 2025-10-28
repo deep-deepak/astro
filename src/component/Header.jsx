@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Phone, MessageCircle } from "lucide-react"; // ✅ Lucide icons
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,7 +27,8 @@ export default function AstrologerHeader() {
                                     borderWidth: "4px",
                                 }}
                             >
-                                <span style={{ fontSize: "2rem" }}>🕌</span>
+                                <span style={{ fontSize: '2.5rem' }}>🛕</span>
+
                             </div>
 
                             <div
@@ -154,7 +155,7 @@ export default function AstrologerHeader() {
                                     className="fw-bold text-success"
                                     style={{ fontSize: "1.4rem", lineHeight: "1.2" }}
                                 >
-                                    +91-6378024495
+                                    +91-8264221603
                                 </div>
 
                                 {/* Contact Icons (Phone & WhatsApp) */}
