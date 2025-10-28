@@ -55,7 +55,7 @@ export default function AstrologerHeader() {
                                 className="fw-bold text-success mb-2"
                                 style={{ fontSize: "1.6rem" }}
                             >
-                                Kinner astrologer Gayatri Devi
+                                Kinner Astrologer Gayatri Devi
                             </h1>
 
                             {/* Ratings & Reviews */}

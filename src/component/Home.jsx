@@ -6,7 +6,7 @@ import { PhoneCall, MessageCircle } from "lucide-react";
 
 export default function Home() {
     const phoneNumber = "+916378024495"; // WhatsApp expects digits only
-    const encodedMessage = encodeURIComponent("Hello! I would like to talk with Kinner astrologer  Gayatri Devi.");
+    const encodedMessage = encodeURIComponent("Hello! I would like to talk with Kinner Astrologer  Gayatri Devi.");
 
     return (
         <div>

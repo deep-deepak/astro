@@ -60,7 +60,7 @@ export default function AstrologyFooter() {
                                         fontWeight: '600',
                                     }}
                                 >
-                                    Kinner astrologer Gayatri Devi
+                                    Kinner Astrologer Gayatri Devi
                                 </h5>
                                 <p
                                     className="mb-0"
