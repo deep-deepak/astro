@@ -45,7 +45,7 @@ export default function AstrologyFooter() {
                                     boxShadow: '0 4px 15px rgba(244, 162, 97, 0.3)',
                                 }}
                             >
-                                <span style={{ fontSize: '28px' }}>🕌</span>
+                                <span style={{ fontSize: '28px' }}>🛕</span>
                             </div>
                             <div>
                                 <h5
