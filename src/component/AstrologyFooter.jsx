@@ -295,7 +295,7 @@ export default function AstrologyFooter() {
                                 WhatsApp:
                             </p>
                             <a
-                                href="https://wa.me/916378024495"
+                                href="https://wa.me/919076333306"
                                 className="text-decoration-none d-block"
                                 style={{
                                     color: '#fff',

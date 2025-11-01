@@ -168,7 +168,7 @@ export default function AstrologerHeader() {
                                         <Phone size={20} />
                                     </a>
                                     <a
-                                        href="https://wa.me/916378024495"
+                                        href="https://wa.me/919076333306"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-success"
