@@ -103,7 +103,13 @@ export default function AstrologyServices() {
                                     overflow: 'hidden',
                                     height: '100%',
                                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-                                    transition: 'transform 0.3s ease'
+                                    transition: 'transform 0.3s ease',
+                                    cursor: 'pointer'
+                                }}
+                                onClick={() => {
+                                    const phoneNumber = "919784417177";
+                                    const encodedMessage = encodeURIComponent(`Hello! I would like to talk about ${service.title}.`);
+                                    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
                                 }}
                                 onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
                                 onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
