@@ -159,7 +159,7 @@ export default function AstrologyServices() {
                                         }}
                                     >
                                         <span style={{ fontSize: '18px' }}>📱</span>
-                                        +91-6378024495
+                                        +91 97844 17177
                                     </Button>
                                 </Card.Body>
                             </Card>

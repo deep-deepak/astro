@@ -55,7 +55,7 @@ export default function AstrologerHeader() {
                                 className="fw-bold text-success mb-2"
                                 style={{ fontSize: "1.6rem" }}
                             >
-                                Kinner Astrologer Gayatri Devi
+                                Astrologer Neha Sharma
                             </h1>
 
                             {/* Ratings & Reviews */}
@@ -159,16 +159,16 @@ export default function AstrologerHeader() {
                                     className="fw-bold text-success"
                                     style={{ fontSize: "1.4rem", lineHeight: "1.2" }}
                                 >
-                                    +91-6378024495
+                                    +91 97844 17177
                                 </div>
 
                                 {/* Contact Icons (Phone & WhatsApp) */}
                                 <div className="d-flex justify-content-center justify-content-md-start gap-3 mt-2">
-                                    <a href="tel:+916378024495" className="text-success">
+                                    <a href="tel:+919784417177" className="text-success">
                                         <Phone size={20} />
                                     </a>
                                     <a
-                                        href="https://wa.me/919076333306"
+                                        href="https://wa.me/919784417177"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-success"

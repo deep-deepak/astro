@@ -60,7 +60,7 @@ export default function AstrologyFooter() {
                                         fontWeight: '600',
                                     }}
                                 >
-                                    Kinner Astrologer Gayatri Devi
+                                    Astrologer Neha Sharma
                                 </h5>
                                 <p
                                     className="mb-0"
@@ -253,7 +253,7 @@ export default function AstrologyFooter() {
                                     fontWeight: '600',
                                 }}
                             >
-                                Gayatri Devi
+                                Neha Sharma
                             </p>
                         </div>
 
@@ -269,7 +269,7 @@ export default function AstrologyFooter() {
                                 Phone:
                             </p>
                             <a
-                                href="tel:+916378024495"
+                                href="tel:+919784417177"
                                 className="text-decoration-none d-block"
                                 style={{
                                     color: '#fff',
@@ -279,7 +279,7 @@ export default function AstrologyFooter() {
                                 onMouseEnter={(e) => (e.currentTarget.style.color = '#ffd166')}
                                 onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}
                             >
-                                +91-6378024495
+                                +91 97844 17177
                             </a>
                         </div>
 
@@ -295,7 +295,9 @@ export default function AstrologyFooter() {
                                 WhatsApp:
                             </p>
                             <a
-                                href="https://wa.me/919076333306"
+                                href="https://wa.me/919784417177"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-decoration-none d-block"
                                 style={{
                                     color: '#fff',
@@ -307,7 +309,7 @@ export default function AstrologyFooter() {
                                 }
                                 onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}
                             >
-                                +91-6378024495
+                                +91 97844 17177
                             </a>
                         </div>
 
@@ -349,7 +351,7 @@ export default function AstrologyFooter() {
                                 marginBottom: 0,
                             }}
                         >
-                            © {new Date().getFullYear()} Astrologer Gayatri Devi. All rights reserved. |
+                            © {new Date().getFullYear()} Astrologer Neha Sharma. All rights reserved. |
                             <a
                                 href="#"
                                 className="text-decoration-none ms-2"
